@@ -43,7 +43,7 @@ def savatga_qoshish(request, mahsulot_id):
         savat[mahsulot_id_str] += miqdor
     else:
         savat[mahsulot_id_str] = miqdor
-        
+    
     request.session['savat'] = savat
     request.session.modified = True
     
